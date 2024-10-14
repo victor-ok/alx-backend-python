@@ -7,6 +7,7 @@ from typing import List
 
 wait_random = __import__('0-basic_async_syntax')
 
+
 async def wait_n(n: int, max_delay: int) -> List[float]:
     """
     executing multiple coroutines at the same time with async
